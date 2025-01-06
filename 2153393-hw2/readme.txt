@@ -1,0 +1,2 @@
+该文件夹中Class文件夹为编译生成的所有class，mypackage文件夹里为问题1和问题2的公共类HuffmanNode
+在运行时，首先要运行的是2153393-hw2-q1-run文件夹中的run_q1.sh来生成2153393-hw2-q1.dat文件，方便后续操作，与此同时会生成huffman_tree.dat文件保存，方便后续解码，由于其数据过于庞大不方便压缩，因此需要先生成dat文件

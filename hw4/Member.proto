@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.joyboys;
+
+option java_package = "groupservice";
+option java_outer_classname = "HeartbeatProto";
+
+message Member {
+  optional int64 sendingTimestamp = 1;
+  optional string ip = 2;
+  optional int32 port = 3;
+  optional string name = 4;
+}
